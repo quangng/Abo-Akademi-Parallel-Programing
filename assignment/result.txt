@@ -1,0 +1,22 @@
+[quanguye@asterope project]$ srun -n 1 galaxyz small.txt small_rand.txt outfile.txt
+srun: job 234848 queued and waiting for resources
+srun: job 234848 has been allocated resources
+Number of bins: 256
+Value of PI: 3.141593
+small.txt contains 20000 lines
+small_rand.txt contains 20000 lines
+Calculating DD angle histogram...
+      10000
+  histogram count = 364737324
+
+Calculating DR angle histogram...
+      10000
+DR angle                         histogram count = 363081373
+
+Calculating RR angle histogram...
+      10000
+  histogram count = 361391368
+
+parallel
+DD	
+RR	361392558
